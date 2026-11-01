@@ -1,0 +1,48 @@
+{
+  "dt_seconds": 300.0,
+  "horizon": 8640,
+  "air_capacity_J_per_K": 2000000.0,
+  "wall_capacities_J_per_K": [
+    8000000.0,
+    16000000.0
+  ],
+  "air_wall_W_per_K": 150.0,
+  "wall_outdoor_W_per_K": 100.0,
+  "interzone_W_per_K": 50.0,
+  "reference_power_W": 1000.0,
+  "temperature_scale_K": 1.0,
+  "zones": [
+    6,
+    18
+  ],
+  "gains": [
+    0.8,
+    1.2,
+    1.8
+  ],
+  "increments": [
+    0.01,
+    0.1
+  ],
+  "absolute_contrast_bias_budget_K": 0.001,
+  "weather_mean_K": 6.0,
+  "weather_daily_amplitude_K": 2.0,
+  "weather_sd_K": 1.5,
+  "heat_mean_W": 400.0,
+  "heat_daily_amplitude_W": 100.0,
+  "heat_sd_W": 150.0,
+  "shared_heat_variance_fraction": 0.25,
+  "accuracy_paths": 512,
+  "timing_paths": 256,
+  "batch_paths": 32,
+  "timing_repetitions": 5,
+  "accuracy_seed": 2026103101,
+  "timing_seed": 2026103102,
+  "primary_output": "Mean zone-air temperature contrast in kelvin.",
+  "baselines": [
+    "matrix-resolved separate Lipschitz with saturation-range caps",
+    "two state-forgetting bounds without gain cancellation",
+    "global finite-gain tangent cap"
+  ],
+  "scope": "Numerical discrete-time model; no building calibration or continuous-time discretization certificate."
+}

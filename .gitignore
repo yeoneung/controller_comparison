@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.dylib
+*.so
+*.o
+.venv/
+venv/
+build/
+figures/

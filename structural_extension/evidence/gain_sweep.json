@@ -1,0 +1,96 @@
+{
+  "config": {
+    "horizon": 105120,
+    "dt_seconds": 300.0,
+    "comparisons": 256,
+    "gain_min": 0.6,
+    "gain_max": 1.8,
+    "increment": 0.01,
+    "paths": 64,
+    "timing_repetitions": 3,
+    "validation_paths": 8,
+    "validation_gain_indices": [
+      0,
+      63,
+      127,
+      191,
+      255
+    ],
+    "conditions": [
+      {
+        "zones": 6,
+        "wall_capacity": 8000000.0
+      },
+      {
+        "zones": 18,
+        "wall_capacity": 16000000.0
+      }
+    ],
+    "bias_budget_K": 0.001,
+    "maximum_memory_search": 10000,
+    "seed": 2026103191,
+    "air_capacity": 2000000.0,
+    "air_wall": 150.0,
+    "wall_outdoor": 100.0,
+    "interzone": 50.0,
+    "reference_power": 1000.0,
+    "scope": "Illustrative physical model; fixed truncation-bias budget. No building calibration or sampling-error certificate."
+  },
+  "results": [
+    {
+      "zones": 6,
+      "wall_capacity": 8000000.0,
+      "old_memory": 3459,
+      "new_memory": 2871,
+      "old_bias_bound_K": 0.000998851397981424,
+      "new_bias_bound_K": 0.0009989201871166734,
+      "old_bound_at_new_K": 0.005541008208233222,
+      "horizon_over_old_memory": 30.39028620988725,
+      "horizon_over_new_memory": 36.61442006269593,
+      "memory_reduction": 0.1699913269731136,
+      "selection_work_independent_of_horizon": true,
+      "comparisons": 256,
+      "paths": 64,
+      "compile_seconds": 0.6042698330711573,
+      "bound_selection_seconds": 0.018831457942724228,
+      "median_old_seconds": 2.570948916953057,
+      "median_new_seconds": 2.0885742919053882,
+      "median_sampling_time_ratio": 0.8123748698907048,
+      "median_complete_cost_ratio": 0.8489771313411171,
+      "median_seconds_saved": 0.4823746250476688,
+      "validation_rms_error_K": 2.1482199109550155e-05,
+      "maximum_absolute_validation_error_K": 5.3377854701303074e-05
+    },
+    {
+      "zones": 18,
+      "wall_capacity": 16000000.0,
+      "old_memory": 6072,
+      "new_memory": 5048,
+      "old_bias_bound_K": 0.0009995782451791722,
+      "new_bias_bound_K": 0.0009990401599847577,
+      "old_bound_at_new_K": 0.00555329557489386,
+      "horizon_over_old_memory": 17.31225296442688,
+      "horizon_over_new_memory": 20.82408874801902,
+      "memory_reduction": 0.16864295125164686,
+      "selection_work_independent_of_horizon": true,
+      "comparisons": 256,
+      "paths": 64,
+      "compile_seconds": 0.6042698330711573,
+      "bound_selection_seconds": 0.019193625077605247,
+      "median_old_seconds": 13.59524574992247,
+      "median_new_seconds": 11.274973708903417,
+      "median_sampling_time_ratio": 0.8293321000812152,
+      "median_complete_cost_ratio": 0.8368155641229407,
+      "median_seconds_saved": 2.3202720410190523,
+      "validation_rms_error_K": 2.7240592470276192e-05,
+      "maximum_absolute_validation_error_K": 6.368734600112336e-05
+    }
+  ],
+  "independent_kernel_error": 2.7755575615628914e-17,
+  "platform": "macOS-15.1-arm64-arm-64bit",
+  "cpu": "Apple M4 Pro",
+  "python": "3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]",
+  "numpy": "1.26.4",
+  "cost_scope": "Each workload shares input generation and heat calculations across all 256 pairs. RNG, nonlinear states, allocation, memory selection and one-time compilation included; imports, serialization and full-horizon validation excluded.",
+  "scope": "Three descriptive paired timings, not a high-confidence superiority statement. Prefix processing for selection is horizon-independent. Physical coefficients are illustrative."
+}

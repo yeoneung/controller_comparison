@@ -1,0 +1,444 @@
+{
+  "passed": true,
+  "deterministic_cases": 6,
+  "lengths_per_case": 32,
+  "theta": [
+    0.07,
+    0.11
+  ],
+  "gain_direction": [
+    1.0,
+    -0.4
+  ],
+  "initial_state": [
+    3.0,
+    -2.0
+  ],
+  "finite_gain_increment": 0.02,
+  "maximum_complex_step_absolute_error": 3.885780586188048e-16,
+  "summaries": [
+    {
+      "system": "mixing",
+      "nonlinearity": "tanh",
+      "K": 1.0,
+      "rho": 0.7,
+      "maximum_actual_over_common_bound": 0.42466083455563053,
+      "common_over_generic_at_32": 0.35351582309506996,
+      "maximum_finite_gain_output_fraction": 0.06072061903269921,
+      "maximum_plant_product_norm": 1.0
+    },
+    {
+      "system": "mixing",
+      "nonlinearity": "arctan",
+      "K": 1.0,
+      "rho": 0.7,
+      "maximum_actual_over_common_bound": 0.4785608078135596,
+      "common_over_generic_at_32": 0.4589439253329131,
+      "maximum_finite_gain_output_fraction": 0.04972411097483346,
+      "maximum_plant_product_norm": 1.0
+    },
+    {
+      "system": "mixing",
+      "nonlinearity": "smooth_softsign",
+      "K": 1.0,
+      "rho": 0.7,
+      "maximum_actual_over_common_bound": 0.44219156716295305,
+      "common_over_generic_at_32": 0.31716508957360934,
+      "maximum_finite_gain_output_fraction": 0.061631994648075186,
+      "maximum_plant_product_norm": 1.0
+    },
+    {
+      "system": "transient",
+      "nonlinearity": "tanh",
+      "K": 4.0,
+      "rho": 0.75,
+      "maximum_actual_over_common_bound": 0.4210544643067708,
+      "common_over_generic_at_32": 0.31501376867654773,
+      "maximum_finite_gain_output_fraction": 0.027701435135993553,
+      "maximum_plant_product_norm": 2.5
+    },
+    {
+      "system": "transient",
+      "nonlinearity": "arctan",
+      "K": 4.0,
+      "rho": 0.75,
+      "maximum_actual_over_common_bound": 0.560877189061469,
+      "common_over_generic_at_32": 0.3441843933012389,
+      "maximum_finite_gain_output_fraction": 0.040909623219758696,
+      "maximum_plant_product_norm": 2.5
+    },
+    {
+      "system": "transient",
+      "nonlinearity": "smooth_softsign",
+      "K": 4.0,
+      "rho": 0.75,
+      "maximum_actual_over_common_bound": 0.47532786187315956,
+      "common_over_generic_at_32": 0.2440414021452927,
+      "maximum_finite_gain_output_fraction": 0.03167653503300722,
+      "maximum_plant_product_norm": 2.5
+    }
+  ],
+  "scalar_gain_scaling": [
+    {
+      "relative_gain": 1e-05,
+      "theta_times_supremum": 0.367881280579378,
+      "candidate_lengths": [
+        99999,
+        100000
+      ]
+    },
+    {
+      "relative_gain": 1.2524219824273351e-05,
+      "theta_times_supremum": 0.36788174489574327,
+      "candidate_lengths": [
+        79844,
+        79845
+      ]
+    },
+    {
+      "relative_gain": 1.568560822067216e-05,
+      "theta_times_supremum": 0.36788232641359253,
+      "candidate_lengths": [
+        63752,
+        63753
+      ]
+    },
+    {
+      "relative_gain": 1.9645000543312732e-05,
+      "theta_times_supremum": 0.3678830547264162,
+      "candidate_lengths": [
+        50903,
+        50904
+      ]
+    },
+    {
+      "relative_gain": 2.460383052524181e-05,
+      "theta_times_supremum": 0.36788396686608954,
+      "candidate_lengths": [
+        40643,
+        40644
+      ]
+    },
+    {
+      "relative_gain": 3.081437820172959e-05,
+      "theta_times_supremum": 0.3678851093027136,
+      "candidate_lengths": [
+        32451,
+        32452
+      ]
+    },
+    {
+      "relative_gain": 3.859260463467576e-05,
+      "theta_times_supremum": 0.3678865401016845,
+      "candidate_lengths": [
+        25911,
+        25912
+      ]
+    },
+    {
+      "relative_gain": 4.833422640359507e-05,
+      "theta_times_supremum": 0.36788833209149024,
+      "candidate_lengths": [
+        20688,
+        20689
+      ]
+    },
+    {
+      "relative_gain": 6.053484765148219e-05,
+      "theta_times_supremum": 0.3678905764907405,
+      "candidate_lengths": [
+        16518,
+        16519
+      ]
+    },
+    {
+      "relative_gain": 7.581517390160604e-05,
+      "theta_times_supremum": 0.3678933872391738,
+      "candidate_lengths": [
+        13189,
+        13190
+      ]
+    },
+    {
+      "relative_gain": 9.495259039592259e-05,
+      "theta_times_supremum": 0.367896908098016,
+      "candidate_lengths": [
+        10531,
+        10532
+      ]
+    },
+    {
+      "relative_gain": 0.00011892071150027212,
+      "theta_times_supremum": 0.36790131702135537,
+      "candidate_lengths": [
+        8408,
+        8409
+      ]
+    },
+    {
+      "relative_gain": 0.00014893891324883998,
+      "theta_times_supremum": 0.367906839888116,
+      "candidate_lengths": [
+        6713,
+        6714
+      ]
+    },
+    {
+      "relative_gain": 0.00018653436899168508,
+      "theta_times_supremum": 0.3679137563328192,
+      "candidate_lengths": [
+        5360,
+        5361
+      ]
+    },
+    {
+      "relative_gain": 0.00023361974420339825,
+      "theta_times_supremum": 0.3679224214736056,
+      "candidate_lengths": [
+        4279,
+        4280
+      ]
+    },
+    {
+      "relative_gain": 0.00029259050316938725,
+      "theta_times_supremum": 0.3679332723601039,
+      "candidate_lengths": [
+        3417,
+        3418
+      ]
+    },
+    {
+      "relative_gain": 0.0003664467780188155,
+      "theta_times_supremum": 0.3679468617406946,
+      "candidate_lengths": [
+        2728,
+        2729
+      ]
+    },
+    {
+      "relative_gain": 0.0004589460001804345,
+      "theta_times_supremum": 0.36796388549301523,
+      "candidate_lengths": [
+        2178,
+        2179
+      ]
+    },
+    {
+      "relative_gain": 0.0005747940593730764,
+      "theta_times_supremum": 0.3679852153904165,
+      "candidate_lengths": [
+        1739,
+        1740
+      ]
+    },
+    {
+      "relative_gain": 0.0007198847153274838,
+      "theta_times_supremum": 0.36801192163401375,
+      "candidate_lengths": [
+        1388,
+        1389
+      ]
+    },
+    {
+      "relative_gain": 0.0009015994422895851,
+      "theta_times_supremum": 0.3680453864144001,
+      "candidate_lengths": [
+        1108,
+        1109
+      ]
+    },
+    {
+      "relative_gain": 0.0011291829608677019,
+      "theta_times_supremum": 0.3680873362483494,
+      "candidate_lengths": [
+        885,
+        886
+      ]
+    },
+    {
+      "relative_gain": 0.0014142135623730952,
+      "theta_times_supremum": 0.3681398211600543,
+      "candidate_lengths": [
+        706,
+        707
+      ]
+    },
+    {
+      "relative_gain": 0.0017711921533629356,
+      "theta_times_supremum": 0.36820571056994933,
+      "candidate_lengths": [
+        564,
+        565
+      ]
+    },
+    {
+      "relative_gain": 0.002218279987974548,
+      "theta_times_supremum": 0.36828814523533404,
+      "candidate_lengths": [
+        450,
+        451
+      ]
+    },
+    {
+      "relative_gain": 0.002778222620117972,
+      "theta_times_supremum": 0.3683913738350246,
+      "candidate_lengths": [
+        359,
+        360
+      ]
+    },
+    {
+      "relative_gain": 0.0034795070815126154,
+      "theta_times_supremum": 0.36852129849174187,
+      "candidate_lengths": [
+        286,
+        287
+      ]
+    },
+    {
+      "relative_gain": 0.004357811156897981,
+      "theta_times_supremum": 0.368683935494126,
+      "candidate_lengths": [
+        228,
+        229
+      ]
+    },
+    {
+      "relative_gain": 0.005457818488166128,
+      "theta_times_supremum": 0.3688875156335415,
+      "candidate_lengths": [
+        182,
+        183
+      ]
+    },
+    {
+      "relative_gain": 0.006835491850677583,
+      "theta_times_supremum": 0.3691436002559265,
+      "candidate_lengths": [
+        145,
+        146
+      ]
+    },
+    {
+      "relative_gain": 0.008560920254491521,
+      "theta_times_supremum": 0.3694641482264473,
+      "candidate_lengths": [
+        116,
+        117
+      ]
+    },
+    {
+      "relative_gain": 0.010721884716532598,
+      "theta_times_supremum": 0.36986824278055275,
+      "candidate_lengths": [
+        92,
+        93
+      ]
+    },
+    {
+      "relative_gain": 0.013428324112037102,
+      "theta_times_supremum": 0.37037738767602457,
+      "candidate_lengths": [
+        73,
+        74
+      ]
+    },
+    {
+      "relative_gain": 0.01681792830507429,
+      "theta_times_supremum": 0.37101685794666867,
+      "candidate_lengths": [
+        58,
+        59
+      ]
+    },
+    {
+      "relative_gain": 0.021063143108161937,
+      "theta_times_supremum": 0.37182305503693336,
+      "candidate_lengths": [
+        46,
+        47
+      ]
+    },
+    {
+      "relative_gain": 0.026379943447674862,
+      "theta_times_supremum": 0.37281897492644755,
+      "candidate_lengths": [
+        37,
+        38
+      ]
+    },
+    {
+      "relative_gain": 0.03303882106905794,
+      "theta_times_supremum": 0.3741174073062134,
+      "candidate_lengths": [
+        29,
+        30
+      ]
+    },
+    {
+      "relative_gain": 0.041378545780371555,
+      "theta_times_supremum": 0.3757255998620539,
+      "candidate_lengths": [
+        23,
+        24
+      ]
+    },
+    {
+      "relative_gain": 0.05182340033621319,
+      "theta_times_supremum": 0.37782065870694337,
+      "candidate_lengths": [
+        18,
+        19
+      ]
+    },
+    {
+      "relative_gain": 0.06490476578520554,
+      "theta_times_supremum": 0.3804956151770196,
+      "candidate_lengths": [
+        14,
+        15
+      ]
+    },
+    {
+      "relative_gain": 0.08128815543368909,
+      "theta_times_supremum": 0.38386718357502986,
+      "candidate_lengths": [
+        11,
+        12
+      ]
+    },
+    {
+      "relative_gain": 0.10180707277612223,
+      "theta_times_supremum": 0.3881302636069546,
+      "candidate_lengths": [
+        9,
+        10
+      ]
+    },
+    {
+      "relative_gain": 0.127505415911395,
+      "theta_times_supremum": 0.39373417420990675,
+      "candidate_lengths": [
+        7,
+        8
+      ]
+    },
+    {
+      "relative_gain": 0.1596905857659712,
+      "theta_times_supremum": 0.40144560701102416,
+      "candidate_lengths": [
+        5,
+        6
+      ]
+    },
+    {
+      "relative_gain": 0.2,
+      "theta_times_supremum": 0.4096,
+      "candidate_lengths": [
+        4,
+        5
+      ]
+    }
+  ],
+  "scope": "Deterministic illustrations and numerical identity checks. They are not new stochastic performance timings, calibrated physical tests, or directed-rounding certificates."
+}

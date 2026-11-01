@@ -1,0 +1,37 @@
+{
+  "horizon": 105120,
+  "dt_seconds": 300.0,
+  "comparisons": 256,
+  "gain_min": 0.6,
+  "gain_max": 1.8,
+  "increment": 0.01,
+  "paths": 64,
+  "timing_repetitions": 3,
+  "validation_paths": 8,
+  "validation_gain_indices": [
+    0,
+    63,
+    127,
+    191,
+    255
+  ],
+  "conditions": [
+    {
+      "zones": 6,
+      "wall_capacity": 8000000.0
+    },
+    {
+      "zones": 18,
+      "wall_capacity": 16000000.0
+    }
+  ],
+  "bias_budget_K": 0.001,
+  "maximum_memory_search": 10000,
+  "seed": 2026103191,
+  "air_capacity": 2000000.0,
+  "air_wall": 150.0,
+  "wall_outdoor": 100.0,
+  "interzone": 50.0,
+  "reference_power": 1000.0,
+  "scope": "Illustrative physical model; fixed truncation-bias budget. No building calibration or sampling-error certificate."
+}

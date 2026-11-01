@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "sector_nonlinearities": 3,
+  "gain_values": 3,
+  "lengths_per_case": 80,
+  "bounded_nonlinearity_assumed": false,
+  "bounded_inputs": true,
+  "weighted_norm_weights": [
+    1.0,
+    4.0
+  ],
+  "maximum_complex_step_error": 5.551115123125783e-17,
+  "sector_summaries": [
+    {
+      "nonlinearity": "linear",
+      "gain": 0.0001,
+      "kappa_uniform_in_gain": 1.0,
+      "maximum_error_fraction": 0.7142857142855666,
+      "maximum_finite_gain_fraction": 0.1433006874886982
+    },
+    {
+      "nonlinearity": "linear",
+      "gain": 0.02,
+      "kappa_uniform_in_gain": 1.0,
+      "maximum_error_fraction": 0.7142857142857137,
+      "maximum_finite_gain_fraction": 0.22046259615094385
+    },
+    {
+      "nonlinearity": "linear",
+      "gain": 0.1,
+      "kappa_uniform_in_gain": 1.0,
+      "maximum_error_fraction": 0.7142857142857144,
+      "maximum_finite_gain_fraction": 0.1725825776658334
+    },
+    {
+      "nonlinearity": "linear_plus_tanh",
+      "gain": 0.0001,
+      "kappa_uniform_in_gain": 1.0489795918367346,
+      "maximum_error_fraction": 0.6809338521400252,
+      "maximum_finite_gain_fraction": 0.2101686227898103
+    },
+    {
+      "nonlinearity": "linear_plus_tanh",
+      "gain": 0.02,
+      "kappa_uniform_in_gain": 1.0489795918367346,
+      "maximum_error_fraction": 0.6809338521400806,
+      "maximum_finite_gain_fraction": 0.2101686227898103
+    },
+    {
+      "nonlinearity": "linear_plus_tanh",
+      "gain": 0.1,
+      "kappa_uniform_in_gain": 1.0489795918367346,
+      "maximum_error_fraction": 0.6809338521400782,
+      "maximum_finite_gain_fraction": 0.18289027108923772
+    },
+    {
+      "nonlinearity": "centered_softplus",
+      "gain": 0.0001,
+      "kappa_uniform_in_gain": 1.195918367346939,
+      "maximum_error_fraction": 0.5972696245728536,
+      "maximum_finite_gain_fraction": 0.36869171369953063
+    },
+    {
+      "nonlinearity": "centered_softplus",
+      "gain": 0.02,
+      "kappa_uniform_in_gain": 1.195918367346939,
+      "maximum_error_fraction": 0.5972696245733822,
+      "maximum_finite_gain_fraction": 0.038943062253627966
+    },
+    {
+      "nonlinearity": "centered_softplus",
+      "gain": 0.1,
+      "kappa_uniform_in_gain": 1.195918367346939,
+      "maximum_error_fraction": 0.597269624573379,
+      "maximum_finite_gain_fraction": 0.1006910662911905
+    }
+  ],
+  "matrix_gain_characterization": [
+    {
+      "gain": 0.02,
+      "searched_lengths": 533,
+      "maximizing_length": 67,
+      "absolute_gain_constant": 18.368247521169444,
+      "log_gain_constant": 0.3673649504233889,
+      "square_gain_parameter_constant": 2.597662476146381
+    },
+    {
+      "gain": 0.01,
+      "searched_lengths": 1065,
+      "maximizing_length": 133,
+      "absolute_gain_constant": 36.75658003912861,
+      "log_gain_constant": 0.36756580039128606,
+      "square_gain_parameter_constant": 3.675658003912861
+    },
+    {
+      "gain": 0.003,
+      "searched_lengths": 3547,
+      "maximizing_length": 443,
+      "absolute_gain_constant": 122.59079540769683,
+      "log_gain_constant": 0.3677723862230905,
+      "square_gain_parameter_constant": 6.714574398729629
+    },
+    {
+      "gain": 0.001,
+      "searched_lengths": 10641,
+      "maximizing_length": 1330,
+      "absolute_gain_constant": 367.84259949414815,
+      "log_gain_constant": 0.36784259949414816,
+      "square_gain_parameter_constant": 11.63220434838609
+    },
+    {
+      "gain": 0.0003,
+      "searched_lengths": 35468,
+      "maximizing_length": 4434,
+      "absolute_gain_constant": 1226.227529958044,
+      "log_gain_constant": 0.36786825898741315,
+      "square_gain_parameter_constant": 21.238883835270197
+    },
+    {
+      "gain": 0.0001,
+      "searched_lengths": 106402,
+      "maximizing_length": 13300,
+      "absolute_gain_constant": 3678.7570194370105,
+      "log_gain_constant": 0.36787570194370106,
+      "square_gain_parameter_constant": 36.787570194370105
+    }
+  ],
+  "critical_coupling": 0.6014925373134326,
+  "inactive_mode_example": "M=diag(0.8,0.5), E=diag(0,1): no critical self-coupling; absolute-gain sensitivity remains bounded at rate 0.8.",
+  "scope": "Numerical illustrations of analytic arguments, not historical novelty or validated rounding."
+}

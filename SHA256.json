@@ -1,0 +1,23 @@
+{
+  "README.txt": "9ecaefaa67b3d122ef3004e6330dd4edfb51e6887a65581ec6d5d2556c64d360",
+  "code/plot_results.py": "283648feea68d545376401ead319a25b1f8f0c9c52e5b0ffd5b22723a1c9b677",
+  "code/sensitivity_examples.py": "e8b71495c45ab5f6fbe7dec72bab35fa3dc0de20e7383460728b5c85ded896a1",
+  "code/thermal_application.py": "67ff8df9e07dc3b8452df17519e73a72b486d034fafd5949444281bccd55c5fc",
+  "code/thermal_kernel.c": "4327cb8244bed7adfcabd0b66445d41079c7e7759eac58aa3bdec4dbb31b07a8",
+  "evidence/sensitivity_examples.json": "aa9a7b5493efa1fe6b89bce47eb4849d7f8c7dc5b6bfd45874acdadef15145d4",
+  "evidence/thermal_application.json": "9d596f9f1dcfe98e31e05cb843c5d65354a4db68f2df5a350685a6741797228b",
+  "recorded_data/sensitivity_examples.csv": "42f96382684815055114e2f66a7955a7e88f927af29507d5b71531e0b0ec1b0d",
+  "recorded_data/thermal_observations.npz": "4a08a74aa568d28884f2371224971404d675e8e25909c7fe573b112623ffabfe",
+  "recorded_data/thermal_protocol.json": "223375f8af42721f6c2fe9853b1f00163de9e2f795767ddfae39a4713527b7bb",
+  "recorded_data/thermal_summary.csv": "15edd63429659f055ada98ae0cc589d529af29e06bfe9735939d32b2b6aa25a7",
+  "requirements.txt": "66099f2ce19ef46b823a186202fb915a040d028f3fa73c5b1196ce51d0eb87aa",
+  "structural_extension/README.txt": "daa628bb5e147fb73a5e7d95d59ef2c7ba584313b44ce3d209e9499b7483715d",
+  "structural_extension/code/gain_sweep.c": "97962b929290758aa5fe3497355958d7e07de66241eda6cae09fda1347c8c620",
+  "structural_extension/code/gain_sweep.py": "22985099179716be3514f208cc0905dc7b528bffd2dc9bc4053ac23b75116e3c",
+  "structural_extension/code/structural_checks.py": "10f1303d6ca8ea3fc9ef387978aaf3a2f97c230a6000d77450c2e954ee1882ab",
+  "structural_extension/evidence/gain_sweep.json": "78c9f07517b91980d65dcae327d40affece02121db8d24192b1141c754ae87fa",
+  "structural_extension/evidence/structural_checks.json": "2aea006a44eb4bb57e7eef5a013623b437912d480695b4fd69d211ca57a2685d",
+  "structural_extension/recorded_data/gain_sweep.npz": "6323ccfb1ae464cfffc038113193459a90806be534fb62a3a7dfcb0cbdef3034",
+  "structural_extension/recorded_data/protocol.json": "e81412aab2c656a05e151bd0dc1aa44a47d80a9d0b186f640d291ea23efb5fc5",
+  "structural_extension/recorded_data/structural_checks.csv": "28dd5eb7a2c80fba96536d0a6f2fcbb8deef22d7d3714a181e8bde63ea96975d"
+}
